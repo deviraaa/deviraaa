@@ -1,0 +1,69 @@
+# program menghitung luas persegi panjang !
+
+panjang = float(input("masukan panjang "))
+lebar  = float(input("masukan lebar  "))
+
+luas = panjang * lebar
+    
+print("Luas persegi panjang adalah",luas)
+   
+   
+   
+   
+   
+# Program menghitungg luas Lingkaran 
+
+a = 22/7
+r = float(input("Masukkan panjang jari-jari lingkaran : "))
+
+luas = a*r*r
+
+print("Luas lingkaran adalah  %d " % (luas))
+
+
+
+
+
+
+#Program menghitungg rumus  E = MC2
+mc = 15
+b = 2
+
+e = mc**b
+
+print("hasil",mc,"**",b,"=",e)
+
+
+
+
+
+
+
+ # Program konversi suhu , dari Celcius , F
+
+suhu_c = float(input('Masukan suhu dalam celcius  '))
+
+suhu_f =(9./5)* suhu_c + 32
+
+suhu_r = (4./5)* suhu_c
+
+print("suhu celcius adalah :  %f" % (suhu_c))
+print("suhu fahrenheit adalah : %2f " % (suhu_f))
+print("suhu reamur adalah : %f " % (suhu_r))
+
+
+
+
+
+
+
+#Program konversi detik ke hari , jam, menit , detik!
+
+jml_detik = input("Masukan jumlah hari :")
+
+hari = jml_detik//86400
+jam =jml_detik-3600*hari
+menit = jam //60
+detik =(60*menit)
+
+print("%d hari%d jam %d menit %d detik" % (hari,jam,menit,detik))
